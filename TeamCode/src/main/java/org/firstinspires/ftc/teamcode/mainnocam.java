@@ -17,15 +17,15 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaCurrentGame;
 @TeleOp(name = "mainnocam")
 public class mainnocam extends LinearOpMode {
 
-  private DcMotor linear_slide;
-  private DcMotor right_front;
-  private DcMotor right_back;
-  private DcMotor left_back;
-  private DcMotor left_front;
-  private Servo hook_servo;
-  private RevBlinkinLedDriver LED_RevBlinkinLedDriver;
-  private BNO055IMU imu;
-  private VuforiaCurrentGame vuforiaPOWERPLAY;
+  private DcMotor linear_slide = null;
+  private DcMotor right_front = null;
+  private DcMotor right_back = null;
+  private DcMotor left_back = null;
+  private DcMotor left_front = null;
+  private Servo hook_servo = null;
+  private RevBlinkinLedDriver LED_RevBlinkinLedDriver = null;
+  private BNO055IMU imu = null;
+  private VuforiaCurrentGame vuforiaPOWERPLAY = null;
 
   int maxVelocity;
   double speed;
